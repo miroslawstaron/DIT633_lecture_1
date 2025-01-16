@@ -19,7 +19,7 @@
 int main(int argc, char *argv[])
 {
 	// let's check if the program works at all
-	// printf("%d\n", argc);
+	printf("%d\n", argc);
 	
 	// the first argument
 	// printf("The first argument %s\n", argv[1]);
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
 	// examples of reading and printing values
 	// on the console
-	main_inout();
+	// main_inout();
 
 	// examples or reading using getchar()
 	// main_getch();
