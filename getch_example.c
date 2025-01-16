@@ -1,3 +1,14 @@
+/**
+ * @file getch_example.c
+ * @brief Demonstrates the use of getch in Visual Studio
+ *
+ * This program demonstrates the use of getch for reading a single character from the console.
+ * It includes examples of reading characters and handling input errors.
+ *
+ * Author: Miroslaw Staron
+ * Date: 2021
+ */
+
 #include <stdio.h>
 
 #define MAX 20
@@ -10,13 +21,6 @@ void clearstdin(void) {
 	while ((temp = getchar()) != '\n');
 }
 
-/*
-* This program demonstrates the usage of getchar and gets
-* It also shows how important it is to clear the buffer
-* 
-* DIT632, Lecture 1
-* Author: miroslaw.staron@gu.se
-*/
 int main_getch(void) {
 	
 	// variable declaration

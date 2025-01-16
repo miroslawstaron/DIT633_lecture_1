@@ -1,14 +1,17 @@
+/**
+ * @file input_and_output.c
+ * @brief Demonstrates the use of scanf in Visual Studio
+ *
+ * This program demonstrates the use of scanf for reading input from the console.
+ * It includes examples of reading strings and integers, and handling input errors.
+ *
+ * @author Miroslaw Staron
+ * @date 2021
+ */
+
 #include <stdio.h>
 
-/**
-* This program demonstrates the use of scanf in Visual Studio
-*
-* Purpose: Demonstration of comments and program logic
-* DIT632
-*
-* Author: Miroslaw Staron, 2021
-*
-**/
+
 int main_inout()
 {
 	// variable declarations

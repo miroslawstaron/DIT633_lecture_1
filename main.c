@@ -1,16 +1,20 @@
+/**
+ * @file main.c
+ * @brief Main program integrating all parts from Lecture 1
+ *
+ * This program integrates all parts from Lecture 1.
+ * It includes examples of loops, input/output, getch, fgets, and Fibonacci calculations.
+ *
+ * Author: Miroslaw Staron
+ * Date: 2021
+ */
+
 // Include section
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include "myHeader.h"
 
-/*
-* Program that integrates all parts from Lecture 1
-* 
-* Course: DIT632
-* Author: miroslaw.staron@gu.se
-* (c) 2021
-*/
 
 int main(int argc, char *argv[])
 {

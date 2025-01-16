@@ -1,4 +1,12 @@
-// declaration of the functions in this project
+/**
+ * @file myHeader.h
+ * @brief Declarations of the functions in this project
+ *
+ * This header file contains the declarations of the functions used in this project.
+ *
+ * Author: Miroslaw Staron
+ * Date: 2021
+ */
 
 // from loops.c
 int main_loops();
@@ -11,3 +19,6 @@ int main_getch();
 
 // fgets.c
 int main_fgets();
+
+// fibonacci.c
+int fibonacci(int n);

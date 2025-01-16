@@ -1,3 +1,14 @@
+/**
+ * @file loops.c
+ * @brief Demonstrates the use of loops in C
+ *
+ * This program demonstrates the use of different types of loops in C.
+ * It includes examples of for, while, and do-while loops.
+ *
+ * Author: Miroslaw Staron
+ * Date: 2021
+ */
+
 // Include section
 #include <time.h>
 #include <stdlib.h>
@@ -9,16 +20,6 @@
 
 // Main program section
 
-/**
-* This program demonstrates the use of random number generator
-* and the basic calculations in C
-* 
-* Purpose: Demonstration of comments and program logic
-* DIT632
-* 
-* Author: Miroslaw Staron, 2021
-* 
-**/ 
 int main_loops()
 {
     // variable declarations

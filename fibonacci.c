@@ -1,3 +1,14 @@
+/**
+ * @file fibonacci.c
+ * @brief Demonstrates the calculation of Fibonacci numbers
+ *
+ * This program demonstrates the calculation of Fibonacci numbers.
+ * It includes examples of iterative and recursive methods.
+ *
+ * Author: Miroslaw Staron
+ * Date: 2021
+ */
+
 /*
 * Function which calculates fibonacci for an n-th number
 * I use the function to demonstrate the concept of testing
