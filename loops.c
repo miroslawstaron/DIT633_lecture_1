@@ -48,7 +48,7 @@ int main_loops()
         number[n] = rand() % 100;
 
         // printing the n-th index and the generated number
-        printf("\n Integer nr %d are %d.", 
+        printf("\n Integer nr %d are %d. \n", 
                n, 
                number[n]);
 

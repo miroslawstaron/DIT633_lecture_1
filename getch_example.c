@@ -36,7 +36,7 @@ int main_getch(void) {
 	// Note! Please take a look at the brackets in the while condition
 	// if you want to, remove some of them and see what happens
 	// in most cases the program will compile, but the results will be very different
-	while ((c = getchar()) != 'a') {
+	while ((c = getchar()) != 'X') {
 
 		// adding the character that is read by getchar() to the string
 		text[n] = c;
@@ -67,6 +67,8 @@ int main_getch(void) {
 	// which will directly end the "gets" function
 	// please experiment by commenting this line
 	clearstdin();
+
+	printf("\nEnter a new text:  ");
 
 	// read the string using gets
 	gets(text);

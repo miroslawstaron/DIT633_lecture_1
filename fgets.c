@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "myHeader.h"
 
 // define max number of characters to read from the console
 #define MAX 10
@@ -23,6 +24,7 @@ int main_fgets(void) {
     // read the first text
     printf("\nEnter a text:");
     fgets(text, MAX, stdin);
+    clearstdin();
 
     // read another text
     printf("\nEnter a new text:");

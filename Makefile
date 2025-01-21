@@ -2,7 +2,7 @@
 CC = gcc
 
 # Compiler flags
-CFLAGS = -Wall -g -Wno-unused-variable -Wno-unused-function -Wno-implicit-function-declaration
+CFLAGS = -Wall -g -Wno-unused-variable -Wno-unused-function
 
 # Source files
 SRCS = main.c input_and_output.c loops.c fibonacci.c fgets.c getch_example.c

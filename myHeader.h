@@ -22,3 +22,6 @@ int main_fgets();
 
 // fibonacci.c
 int fibonacci(int n);
+
+// clearstdin.c
+void clearstdin(void);

@@ -14,15 +14,19 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "myHeader.h"
+#include "getch_example.h"
 
 
 int main(int argc, char *argv[])
 {
 	// let's check if the program works at all
-	printf("%d\n", argc);
+	//printf("%d\n", argc);
+
+	// the name of the program
+	//printf("%s\n", argv[0]);
 	
 	// the first argument
-	// printf("The first argument %s\n", argv[1]);
+	//printf("The first argument %s\n", argv[1]);
 
 	// Execute the examples with the loops
 	// generating random numbers
@@ -36,7 +40,7 @@ int main(int argc, char *argv[])
 	// main_getch();
 
 	// examples with fgets()
-	// main_fgets();
+	main_fgets();
 
 	// example of an assertion, i.e. the basics of a unit test
 	// printf("Assert: %s\n", ASSERT_TRUE(12, fibonacci(6)) ? "TRUE" : "FALSE");

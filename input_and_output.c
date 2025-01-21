@@ -9,6 +9,7 @@
  * @date 2021
  */
 
+
 #include <stdio.h>
 
 
@@ -29,6 +30,7 @@ int main_inout()
 	// scanf is the function where the magic happens
 	// it reads the value from the console
 	scanf("%20s", name);
+
 	printf("\nYour name is %s: ", name);
 
 	// the second block for reading the first number
@@ -44,7 +46,7 @@ int main_inout()
 	// Note! the first parameter of scanf is again different
 	scanf("%d%d", &b, &c);
 
-	printf("\nNumber 1 is %d \nNumber 2 is %d", b, c);
+	printf("\nNumber 1 is %d \nNumber 2 is %d\n", b, c);
 
 	return 0;
 }
