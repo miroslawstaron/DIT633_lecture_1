@@ -20,16 +20,15 @@
 int main(int argc, char *argv[])
 {
 	// let's check if the program works at all
-	printf("%d\n", argc);
+	printf("Number of arguments: %d\n", argc);
 
 	// the name of the program
-	printf("%s\n", argv[0]);
+	printf("The name of the program: %s\n", argv[0]);
 	
-	// the first argument
-	if (argc > 1) {
-		printf("The first argument %s\n", argv[1]);
-	} else {
-		// Handle piped input (from stdin)
+
+	if (argc > 1) {			// Handle command line arguments
+		printf("The first argument: %s\n", argv[1]);
+	} else {				// Handle piped input (from stdin)
 		// first we define the buffer
 		char buffer[MAXBUFFER];
 		
