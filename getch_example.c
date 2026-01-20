@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-#define MAX 20
+#define MAX 50
 
 // Clear buffer 
 // This function is necessary to get rid of the \n signs 
@@ -70,8 +70,8 @@ int main_getch(void) {
 
 	printf("\nEnter a new text:  ");
 
-	// read the string using gets
-	gets(text);
+	// read the string using fgets
+	fgets(text, MAX, stdin);
 
 	// and printing it on the console using puts
 	puts(text);

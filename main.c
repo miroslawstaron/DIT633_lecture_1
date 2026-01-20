@@ -16,9 +16,9 @@
 #include "myHeader.h"
 #include "getch_example.h"
 
-
 int main(int argc, char *argv[])
 {
+	/*
 	// let's check if the program works at all
 	printf("Number of arguments: %d\n", argc);
 
@@ -26,8 +26,9 @@ int main(int argc, char *argv[])
 	printf("The name of the program: %s\n", argv[0]);
 	
 
-	if (argc > 1) {			// Handle command line arguments
+	if (argc >= 1) {			// Handle command line arguments
 		printf("The first argument: %s\n", argv[1]);
+		printf("The second argument: %s\n", argv[2]);
 	} else {				// Handle piped input (from stdin)
 		// first we define the buffer
 		char buffer[MAXBUFFER];
@@ -38,6 +39,7 @@ int main(int argc, char *argv[])
 			printf("Piped: %s", buffer);
 		}
 	}
+		*/
 
 	// Execute the examples with the loops
 	// generating random numbers
@@ -48,7 +50,7 @@ int main(int argc, char *argv[])
 	// main_inout();
 
 	// examples or reading using getchar()
-	// main_getch();
+	main_getch();
 
 	// examples with fgets()
 	// main_fgets();
