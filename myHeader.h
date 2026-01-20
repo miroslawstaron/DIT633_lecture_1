@@ -8,6 +8,8 @@
  * Date: 2021
  */
 
+#define MAXBUFFER 256
+
 // from loops.c
 int main_loops();
 

@@ -20,13 +20,25 @@
 int main(int argc, char *argv[])
 {
 	// let's check if the program works at all
-	//printf("%d\n", argc);
+	printf("%d\n", argc);
 
 	// the name of the program
-	//printf("%s\n", argv[0]);
+	printf("%s\n", argv[0]);
 	
 	// the first argument
-	//printf("The first argument %s\n", argv[1]);
+	if (argc > 1) {
+		printf("The first argument %s\n", argv[1]);
+	} else {
+		// Handle piped input (from stdin)
+		// first we define the buffer
+		char buffer[MAXBUFFER];
+		
+		// then we read from stdin
+		// to test it, use echo "Hello World" | ./first_programs.out
+		if (fgets(buffer, sizeof(buffer), stdin) != NULL) {
+			printf("Piped: %s", buffer);
+		}
+	}
 
 	// Execute the examples with the loops
 	// generating random numbers
@@ -40,7 +52,7 @@ int main(int argc, char *argv[])
 	// main_getch();
 
 	// examples with fgets()
-	main_fgets();
+	// main_fgets();
 
 	// example of an assertion, i.e. the basics of a unit test
 	// printf("Assert: %s\n", ASSERT_TRUE(12, fibonacci(6)) ? "TRUE" : "FALSE");
