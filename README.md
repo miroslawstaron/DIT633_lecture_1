@@ -6,6 +6,15 @@ This repository contains the source code for the first lecture, starting 2025
 1. We use WSL2 and not Visual Studio 2020 any more
 2. We use header files and Makefiles
 
+## Build examples
+You can now build and run each lecture example as a separate target:
+- `make main_arguments`
+- `make main_loops`
+- `make main_inout`
+- `make main_getch`
+- `make main_fgets`
+- `make main_assert`
+
 ## Rules for making changes
 I appreciate if you add cool programs and ideas for the lecture. Here is how to do it:
 
