@@ -16,10 +16,8 @@
 #include "myHeader.h"
 #include "getch_example.h"
 
-int main(int argc, char *argv[])
+int main(void)
 {
-	(void)argc;
-	(void)argv;
 	main_getch();
 
 	return 0;
